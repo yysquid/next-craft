@@ -7,9 +7,9 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   craftConfigShareUrl: process.env.CRAFT_CONFIG_SHARE_URL
     ? process.env.CRAFT_CONFIG_SHARE_URL
-    : 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
+    : 'https://www.craft.do/s/lDAYXhGjhmAh1r', // The link to share your craft config
   seo: {
-    keywords: ['Blog', 'Craft.do', 'Craft Docs', 'Next.js', 'TailwindCSS']
+    keywords: ['Ysquid', 'Squid', '鱼鱼', 'zuolan', '左蓝']
   },
   analytics: {
     provider: '', // Currently support Umami, fill with 'umami' to enable or leave it empty to disable it.
