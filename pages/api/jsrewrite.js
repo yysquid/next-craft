@@ -16,7 +16,7 @@ module.exports = async (req, res) => {
     .replace('flex items-start group"', 'flex items-start group",style:{visibility:"hidden"}') // Hide Craft.do upper right corner logo
     .replace(
       /\("svg",\{className:e.className.*id:"blue"\}\)\]\}\)\}\)\}\)/,
-      '("img",{className:e.className,alt:"logo",src:"https://github.com/yysquid.png"})'
+      '("img",{className:e.className,alt:"logo",src:"/favicon.png"})'
     ) // Replace loading logo to favicon.svg
     .replace(
       /\(BM,\{isDarkMode:l,title:"Report page".*\(BM,\{hidden:!\$,isDarkMode:l,title:"Duplicate"/,
